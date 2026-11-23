@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="290" viewBox="0 0 440 290" fill="none">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#33483b" stroke-opacity=".35"/></pattern>
+    <radialGradient id="halo"><stop stop-color="#77c7cf" stop-opacity=".11"/><stop offset="1" stop-color="#77c7cf" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shield" x1="174" y1="82" x2="267" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#88dfa8" stop-opacity=".18"/><stop offset="1" stop-color="#77c7cf" stop-opacity=".025"/></linearGradient>
+  </defs>
+  <rect x="24" y="12" width="392" height="250" fill="url(#grid)"/>
+  <circle cx="220" cy="132" r="127" fill="url(#halo)"/>
+  <circle cx="220" cy="132" r="98" stroke="#33483b" stroke-dasharray="3 7"/>
+  <circle cx="220" cy="132" r="73" stroke="#77c7cf" stroke-opacity=".22"/>
+  <path d="M36 86H103L154 116M404 74H333L281 112M43 224H111L166 173M401 213H326L276 173" stroke="#405e4a" stroke-width="1.5"/>
+  <path d="M36 86H68M371 74H404M43 224H75M365 213H401" stroke="#77c7cf" stroke-width="2"/>
+  <path d="M220 23V47M220 224V257" stroke="#405e4a" stroke-width="1.5"/>
+  <path d="M220 25V37M220 245V257" stroke="#88dfa8" stroke-width="2"/>
+  <g fill="#0b100e" stroke-width="1.5">
+    <rect x="19" y="70" width="34" height="34" rx="9" stroke="#77c7cf"/>
+    <rect x="387" y="57" width="34" height="34" rx="9" stroke="#77c7cf"/>
+    <rect x="26" y="207" width="34" height="34" rx="9" stroke="#88dfa8"/>
+    <rect x="384" y="196" width="34" height="34" rx="9" stroke="#88dfa8"/>
+  </g>
+  <g stroke="#a8b7ad" stroke-width="1.5" stroke-linecap="round">
+    <path d="M29 80H43V90H29ZM33 94H39M36 90V94"/>
+    <path d="M399 68H409M399 73H409M399 78H409"/>
+    <path d="M37 217H49V228H37ZM41 221H45M41 224H45"/>
+    <path d="M394 209C394 203 408 203 408 209V219H394ZM398 205V203C398 198 404 198 404 203V205"/>
+  </g>
+  <path d="M220 74L268 92V132C268 166 246 188 220 204C194 188 172 166 172 132V92L220 74Z" fill="url(#shield)" stroke="#88dfa8" stroke-width="2"/>
+  <path d="M220 86L257 100V132C257 160 240 179 220 192C200 179 183 160 183 132V100L220 86Z" stroke="#88dfa8" stroke-opacity=".2"/>
+  <rect x="204" y="126" width="32" height="27" rx="5" fill="#141d18" stroke="#edf4ef" stroke-width="2"/>
+  <path d="M210 126V118C210 104 230 104 230 118V126" stroke="#edf4ef" stroke-width="2"/>
+  <circle cx="220" cy="137" r="2.5" fill="#88dfa8"/>
+  <path d="M220 139V144" stroke="#88dfa8" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#88dfa8"><circle cx="154" cy="116" r="3"/><circle cx="166" cy="173" r="3"/><circle cx="220" cy="47" r="3"/></g>
+  <g fill="#77c7cf"><circle cx="281" cy="112" r="3"/><circle cx="276" cy="173" r="3"/><circle cx="220" cy="224" r="3"/></g>
+  <g fill="#a8b7ad" font-family="Consolas,monospace" font-size="10" letter-spacing=".5">
+    <text x="63" y="72">Identity</text><text x="326" y="59">Data</text>
+    <text x="68" y="245">Network</text><text x="321" y="243">Privacy</text>
+  </g>
+  <path d="M110 265H185M255 265H330" stroke="#33483b"/>
+  <text x="220" y="269" fill="#88dfa8" text-anchor="middle" font-family="Consolas,monospace" font-size="10">Protect what matters</text>
+</svg>
